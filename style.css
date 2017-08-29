@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #40A0EC;
+}
+
+h1 {
+    font-family: 'Patrick Hand SC', cursive;
+    text-decoration: underline;
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin: 20px;
+}
+
+#new-to-do {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+    outline: none;
+    width: 75%;
+}
+
+.item {
+    text-decoration: line-through;
+}
+
+ul {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 45px;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0;
+    -webkit-box-shadow: 0 20px 80px -6px black;
+            box-shadow: 0 20px 80px -6px black;
+}
+
+li {
+    border-bottom: solid 2px #1E5BA6;
+    padding: 10px;
+}
+
+li:last-child {
+    border: none;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
